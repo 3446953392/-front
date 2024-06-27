@@ -8,4 +8,4 @@ import { BaseResourceScheduleEntity } from '../../entity/schedule';
   api: ['add', 'delete', 'update', 'info', 'list', 'page'],
   entity: BaseResourceScheduleEntity
 })
-export class AdminResourceScheduleController extends BaseController {}
+export class AdminBaseResourceScheduleController extends BaseController {}

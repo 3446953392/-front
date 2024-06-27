@@ -8,4 +8,4 @@ import { UserResourceEntity } from '../../entity/resource';
   api: ['add', 'delete', 'update', 'info', 'list', 'page'],
   entity: UserResourceEntity
 })
-export class AdminUserResourceController extends BaseController {}
+export class AdminUserResourceController extends BaseController { }

@@ -2,10 +2,10 @@ import { BaseEntity } from '@cool-midway/core';
 import { Column, Entity } from 'typeorm';
 
 /**
- * theme模块-基地管理
+ * base模块-基地管理
  */
-@Entity('theme_base_info')
-export class ThemeBaseInfoEntity extends BaseEntity {
+@Entity('base_management')
+export class BaseManagementEntity extends BaseEntity {
   @Column({ comment: '基地名称' })
   name: string;
 
